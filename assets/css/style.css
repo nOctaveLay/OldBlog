@@ -1,14 +1,14 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: #212121;
+	color: #0F174A;
 }
 
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #212121;
+	background-color: #0F174A;
 	color: #fff;
 }
 
@@ -26,9 +26,8 @@ body{
 	color: #fff;
 }
 
-
 .page-header {
-	color: #484848;
+	color: #1A287D;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -83,6 +82,7 @@ article .share .gplus:hover {
 	border-color: #1976d2;
 }
 
+
 #contact-list-secondary {
 	padding-bottom: 10px;
 }
@@ -107,7 +107,6 @@ article{
 	font-size: 14px;
 	letter-spacing: 3px;
 }
-
 article {
 	padding: 0 5% 0;
 }
