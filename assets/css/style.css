@@ -60,21 +60,21 @@ article .share .twitter:hover {
 	color: #1D87BD;
 }
 #contact-list li:hover .fa-envelope {
-	color: #E93E30;
+	color: #1D87BD;
 }
 #contact-list li:hover .fa-pinterest {
-	color: #CC2127;
+	color: #1D87BD;
 }
 #contact-list li:hover .fa-rss {
-	color: #e74c3c;
+	color: #1D87BD;
 }
 article .share .facebook:hover {
 	color: #43609C;
 	border-color: #43609C;
 }
 article .share .gplus:hover {
-	color: #C13929;
-	border-color: #C13929;
+	color: #1976d2;
+	border-color: #1976d2;
 }
 
 #contact-list-secondary {
