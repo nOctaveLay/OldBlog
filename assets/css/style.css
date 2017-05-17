@@ -1,14 +1,14 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: #2e7d32;
+	color: #0d47a1;
 }
 
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #2e7d32;
+	background-color: #0d47a1;
 	color: #fff;
 }
 
@@ -111,8 +111,8 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #2e7d32; }
-article.home div a:hover, article.home pre a:hover { color: #2e7d32; text-decoration: none; }
+article.home div a, article.home pre a { color: #0d47a1; }
+article.home div a:hover, article.home pre a:hover { color: #0d47a1; text-decoration: none; }
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
@@ -123,20 +123,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #29b6f6;
+	color: #fff;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #80d6ff;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #0077c2;
 }
 
 .author .author-image {
@@ -172,7 +172,7 @@ footer {
     border-radius: 4px 0 0 4px;
 }
 
-.badge { background: #F2756A; }
+.badge { background: #80d6ff; }
 
 #nav-menu{
     position: fixed;
