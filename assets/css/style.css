@@ -1,14 +1,14 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: #0d47a1;
+	color: #42a5f5;
 }
 
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #0d47a1;
+	background-color: #42a5f5;
 	color: #fff;
 }
 
