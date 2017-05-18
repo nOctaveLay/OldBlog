@@ -7,6 +7,9 @@ fullview : true
 comments : true
 ---
 <h1> Initial </hi>
+
+
+
 <h1> Basic </hi>
 git commit : 메세지 없이 그냥 commit하는 것. commit은 git에 add한 것을 확정지을 때 쓴다. 
 git clone [address] : git에 올려진 repository에 있는 내용을 자신의 작업창에 옮기고 싶을 때 쓴다. 여기서 말하는 address는 repository의 address를 나타낸다.
@@ -65,3 +68,6 @@ git rebase -i HEAD~# : HEAD에서 #만큼 수를 바꾸거나 버린다.
 
 
 git commit --amend : 커밋 내용을 정정함.
+
+출처 : http://learnbranch.uriqit.com/
+
