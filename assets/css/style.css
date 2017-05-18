@@ -26,10 +26,6 @@ body{
 	color: #fff;
 }
 
-.page-header {
-	color: #1A287D;
-	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
-}
 
 a.nav-link {
 	padding-bottom: 5px;
@@ -85,6 +81,10 @@ article .share .gplus:hover {
 
 #contact-list-secondary {
 	padding-bottom: 10px;
+}
+.page-header {
+	color: #1A287D;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 @media only screen and (min-width: 768px) {

@@ -1,7 +1,7 @@
 ---
 layout:post
 title: simple git using
-categories:[Git]
+categories:[git,name]
 description:
 fullview : true
 comments : true
