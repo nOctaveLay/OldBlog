@@ -1,13 +1,11 @@
 ---
-layout:post
+layout: post
 title: simple git using
-categories:git
+categories: git
 fullview : true
 comments : true
 ---
 <h1> Initial </h1>
-
-
 
 <h1> Basic </h1>
 git commit : 메세지 없이 그냥 commit하는 것. commit은 git에 add한 것을 확정지을 때 쓴다. 
