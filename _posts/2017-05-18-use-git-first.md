@@ -1,8 +1,7 @@
 ---
 layout:post
 title: simple git using
-categories:[git,name]
-description:
+categories:git
 fullview : true
 comments : true
 ---
