@@ -1,16 +1,16 @@
 ---
 layout:post
-titile: simple git using
+title: simple git using
 categories:[Git]
 description:
 fullview : true
 comments : true
 ---
-<h1> Initial </hi>
+<h1> Initial </h1>
 
 
 
-<h1> Basic </hi>
+<h1> Basic </h1>
 git commit : 메세지 없이 그냥 commit하는 것. commit은 git에 add한 것을 확정지을 때 쓴다. 
 git clone [address] : git에 올려진 repository에 있는 내용을 자신의 작업창에 옮기고 싶을 때 쓴다. 여기서 말하는 address는 repository의 address를 나타낸다.
 git add [file name] : [file name] 파일을 git 저장소에 첨부한다.
@@ -19,7 +19,7 @@ git commit -m "[message]" : commit messagef를 남긴 채로 커밋한다.
 git push : 온라인 상에 git을 올린다. 
 * 주로 git add [file name] 한 뒤 git commit -m "message" 를 하고 git push를 한다.
 
-<h1>Normal </hi>
+<h1>Normal </h1>
 git 브랜치란? 특정 커밋에 대한 참조이다.
 브랜치를 많이 만들어도 메모리나 디스크 공간에 부담이 되지 않기 때문에, 많이 만들어도 된다. 
 
