@@ -6,15 +6,34 @@ fullview : true
 comments : true
 ---
 <h1> Initial </h1>
+* 어디까지나 주의사항 : 이 모든 내용은 github에서만 실행해보았다. 다른 git은 내용은 같지만 address부분에서 미묘하게 차이가 날 수 있다.
 
 <h1> Basic </h1>
-git commit : 메세지 없이 그냥 commit하는 것. commit은 git에 add한 것을 확정지을 때 쓴다. 
-git clone [address] : git에 올려진 repository에 있는 내용을 자신의 작업창에 옮기고 싶을 때 쓴다. 여기서 말하는 address는 repository의 address를 나타낸다.
-git add [file name] : [file name] 파일을 git 저장소에 첨부한다.
+<h3> GIT을 처음 사용할 시 </h3>
+
+<h5>git init</h5> git을 처음 사용할 때에는 git 저장소라는 것이 필요하다. 이는 작업할 때는 안보이지만, git에서 일어난 변경사항을 모두 담고있는 폴더이다. 참고로 이 git폴더를 지울 때에는 관리자 권한이 필요하다.
+
+<h5>git remote add origin [address]</h5> 자신이 git을 저장할 장소를 설정한다. github에 있는 repository에 저장하려고 한다면 'https://github.com/[자기 닉네임]/[자기 git repository].git'이라고 [address]자리에 적으면 된다.
+예시)git remote add origin https://github.com/van-st/asdf.git
+
+<h5>git commit</h5> 메세지 없이 그냥 commit하는 것. commit은 git에 add한 것을 확정지을 때 쓴다. 
+
+<h5>git clone [address]</h5> : git에 올려진 repository에 있는 내용을 자신의 작업창에 옮기고 싶을 때 쓴다. 여기서 말하는 address는 repository의 address를 나타낸다.
+
+<h5>git add [file name] </h5> [file name] 파일을 git 저장소에 첨부한다.
 git commit -m "[message]" : commit messagef를 남긴 채로 커밋한다.
 *주의* : 커밋 없이는 git push를 할 수 없다. git에 더해져 있는 내용들이 확정된 것인지 아닌 지 알 수 없기 때문이다.
 git push : 온라인 상에 git을 올린다. 
 * 주로 git add [file name] 한 뒤 git commit -m "message" 를 하고 git push를 한다.
+<h3>추가 사항<\h3>
+<h4>address에 관하여 <\h4>
+
+<h5>https://를 쓰는 경우<\h5> https://github.com/[github 아이디]/[github에 올릴 레포].giT.
+<h5>ssh키를 쓰는 경우<\h5> git@github.com:[github 아이디]/[github에 올릴 레포].git
+
+<h4>명령어에 관하여 <\h4>
+<h5>git remote set-url origin [address] <\h5> 깃의 repo를 바꾸는 명령어이다. 이 명령어를 실행하면 [address]로 origin의 주소가 바뀐다.
+
 
 <h1>Normal </h1>
 git 브랜치란? 특정 커밋에 대한 참조이다.
