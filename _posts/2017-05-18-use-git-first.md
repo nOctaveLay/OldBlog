@@ -85,5 +85,5 @@ git rebase -i HEAD~# : HEAD에서 #만큼 수를 바꾸거나 버린다.
 
 git commit --amend : 커밋 내용을 정정함.
 
-출처 : http://learnbranch.uriqit.com/
+참조사이트 : http://learnbranch.uriqit.com/
 
