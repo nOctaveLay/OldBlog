@@ -10,29 +10,25 @@ comments : true
 
 <h1> Basic </h1>
 <h3> GIT을 처음 사용할 시 </h3>
-<br/>
-<h5>git init</h5><br/> git을 처음 사용할 때에는 git 저장소라는 것이 필요하다. 이는 작업할 때는 안보이지만, git에서 일어난 변경사항을 모두 담고있는 폴더이다. 참고로 이 git폴더를 지울 때에는 관리자 권한이 필요하다.
-<br/>
-<h5>git remote add origin [address]</h5><br/> 자신이 git을 저장할 장소를 설정한다. github에 있는 repository에 저장하려고 한다면 'https://github.com/[자기 닉네임]/[자기 git repository].git'이라고 [address]자리에 적으면 된다.
-예시)git remote add origin https://github.com/van-st/asdf.git
-<br/>
-<h5>git commit</h5><br/> 메세지 없이 그냥 commit하는 것. commit은 git에 add한 것을 확정지을 때 쓴다. 
-<br/>
-<h5>git clone [address]</h5> <br/> git에 올려진 repository에 있는 내용을 자신의 작업창에 옮기고 싶을 때 쓴다. 여기서 말하는 address는 repository의 address를 나타낸다.
-<br/>
+<h5>git init</h5> git을 처음 사용할 때에는 git 저장소라는 것이 필요하다. 이는 작업할 때는 안보이지만, git에서 일어난 변경사항을 모두 담고있는 폴더이다. 참고로 이 git폴더를 지울 때에는 관리자 권한이 필요하다.<br>
+<h5>git remote add origin [address]</h5> 자신이 git을 저장할 장소를 설정한다. github에 있는 repository에 저장하려고 한다면 'https://github.com/[자기 닉네임]/[자기 git repository].git'이라고 [address]자리에 적으면 된다.
+예시)git remote add origin https://github.com/van-st/asdf.git<br>
+<h5>git commit</h5> 메세지 없이 그냥 commit하는 것. commit은 git에 add한 것을 확정지을 때 쓴다. <br><br>
+<h5>git clone [address]</h5> <br> git에 올려진 repository에 있는 내용을 자신의 작업창에 옮기고 싶을 때 쓴다. 여기서 말하는 address는 repository의 address를 나타낸다.
+<br>
 <h5>git add [file name] </h5> [file name] 파일을 git 저장소에 첨부한다.
 git commit -m "[message]" : commit messagef를 남긴 채로 커밋한다.
-*주의* : 커밋 없이는 git push를 할 수 없다. git에 더해져 있는 내용들이 확정된 것인지 아닌 지 알 수 없기 때문이다.<br/>
-git push : 온라인 상에 git을 올린다. <br/>
-* 주로 git add [file name] 한 뒤 git commit -m "message" 를 하고 git push를 한다.<br/>
-<h3>추가 사항</h3><br/>
-<h4>address에 관하여 </h4><br/>
-<br/>
-<h5>https://를 쓰는 경우</h5><br/> https://github.com/[github 아이디]/[github에 올릴 레포].giT.
-<h5>ssh키를 쓰는 경우</h5><br/> git@github.com:[github 아이디]/[github에 올릴 레포].git<br/>
-<br/>
-<h4>명령어에 관하여 </h4><br/>
-<h5>git remote set-url origin [address] </h5><br/> 깃의 repo를 바꾸는 명령어이다. 이 명령어를 실행하면 [address]로 origin의 주소가 바뀐다.
+*주의* : 커밋 없이는 git push를 할 수 없다. git에 더해져 있는 내용들이 확정된 것인지 아닌 지 알 수 없기 때문이다.<br>
+git push : 온라인 상에 git을 올린다. <br>
+* 주로 git add [file name] 한 뒤 git commit -m "message" 를 하고 git push를 한다.<br>
+<h3>추가 사항</h3>
+<h4>address에 관하여 </h4>
+<br>
+<h5>https://를 쓰는 경우</h5> https://github.com/[github 아이디]/[github에 올릴 레포].giT.
+<h5>ssh키를 쓰는 경우</h5> git@github.com:[github 아이디]/[github에 올릴 레포].git<br>
+<br>
+<h4>명령어에 관하여 </h4>
+<h5>git remote set-url origin [address] </h5> 깃의 repo를 바꾸는 명령어이다. 이 명령어를 실행하면 [address]로 origin의 주소가 바뀐다.
 
 
 <h1>Normal </h1>
@@ -56,9 +52,6 @@ git merge bugFix master : bugFix를 master 가지로 merge했다.
 같이 있을 때, bugFix를 선택하고 git rebase master라고 치면 bugFix가 밑으로 내려가고 대신 bugFix가 원래 가리키고 있었던 커밋은 남는다. (bugFix가 밑으로 내려가면서 가르키는 건 bugFix가 가리키고 있던 커밋의 복사본)
 이걸 해결하기 위해서 master를 checkout으로 선택한 뒤, git rebase bugFix 를 하면 master가 bugFix의 부모쪽에 있었기 때문에 단순히 그 브랜치를 더 앞으로 가리키게 이동하는 것으로 문제가 해결된다. (bugFix가 있었던 원래 commit을 접속할 브랜치가 없기 때문)
 *참고 : 너무 헷갈릴 때에는 checkout만 움직인다고 생각하면 편하다. master는 항상 최신것을 가리켜야 하므로라고 하면 이해가 쉽다.
-
-여러 브랜치를 리베이스(rebase)하기
-
 
 git에서 작업 되돌리기.
 1. git reset : 예전의 커밋을 가리키도록 이동시키는 방식으로 변경 내용을 되돌리는 것. 
