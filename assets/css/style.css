@@ -1,15 +1,15 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: #0F174A;
+	color: #000;
 }
 
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #0F174A;
-	color: #1B1AFF;
+	background-color: #081A40;
+	color: #fff;
 }
 
 .sidebar-header {
@@ -83,7 +83,7 @@ article .share .gplus:hover {
 	padding-bottom: 10px;
 }
 .page-header {
-	color: #1A287D;
+	color: #0F347F;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -123,14 +123,14 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #1B1A7C;
+	color: #1E68FF;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #80d6ff;
+	color: #431964;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
