@@ -1,10 +1,10 @@
----<br>
-layout: post<br>
-title: simple git using<br>
-categories: git<br>
-fullview : true<br>
-comments : true<br>
----<br>
+---
+layout: post
+title: simple git using
+categories: git
+fullview : true
+comments : true
+---
 <h1> Initial </h1><br>
 * 어디까지나 주의사항 : 이 모든 내용은 github에서만 실행해보았다. 다른 git은 내용은 같지만 address부분에서 미묘하게 차이가 날 수 있다.<br>
 <br>
@@ -22,7 +22,7 @@ git push : 온라인 상에 git을 올린다. <br><br>
 * 주로 git add [file name] 한 뒤 git commit -m "message" 를 하고 git push를 한다.<br><br>
 <h3>추가 사항</h3><br>
 <h4>address에 관하여 </h4><br><br>
-<h5>https://를 쓰는 경우</h5> https://github.com/[github 아이디]/[github에 올릴 레포].git.<br>
+<h5>https://를 쓰는 경우</h5> https://github.com/[github 아이디]/[github에 올릴 레포].git<br>
 <h5>ssh키를 쓰는 경우</h5> git@github.com:[github 아이디]/[github에 올릴 레포].git<br><br><br>
 <h4>명령어에 관하여 </h4><br>
 <h5>git remote set-url origin [address] </h5> 깃의 repo를 바꾸는 명령어이다. 이 명령어를 실행하면 [address]로 origin의 주소가 바뀐다.<br>
